@@ -1,0 +1,16 @@
+venv/
+.env
+
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
+.streamlit/
+
+model.keras
+model.h5
+
+dataset/
+cats_and_dogs/
+data/
