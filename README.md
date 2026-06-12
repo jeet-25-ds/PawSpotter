@@ -307,15 +307,67 @@ Confidence: 95.8%
 
 ---
 
-## Future Improvements
+### Future Enhancements
 
-* Multi-class animal classification
-* Mobile deployment
-* Real-time camera prediction
-* Transfer Learning with VGG16/ResNet50
-* Model explainability using Grad-CAM
-* Cloud deployment using Streamlit Cloud
+The current version of PawSpotter focuses on binary image classification, identifying whether an uploaded image contains a dog or a cat. Future versions of the project aim to extend its capabilities and improve overall functionality.
 
+1. Dog Breed Classification
+
+Develop a dedicated CNN model trained on dog breed datasets to identify specific breeds such as:
+
+Labrador Retriever
+Golden Retriever
+German Shepherd
+Husky
+Beagle
+Pug
+Rottweiler
+Shih Tzu
+
+This enhancement will enable the system to move beyond simple dog detection and provide fine-grained breed identification.
+
+2. Cat Breed Classification
+
+Train a separate CNN model for cat breed recognition, allowing classification of breeds such as:
+
+Persian
+Siamese
+Bengal
+Maine Coon
+Ragdoll
+British Shorthair
+
+This will provide more detailed and informative predictions for cat images.
+
+3. Hierarchical Prediction Pipeline
+
+Implement a two-stage classification system:
+
+Stage 1: Identify whether the uploaded image contains a Dog or a Cat.
+
+Stage 2: Route the image to the corresponding breed classification model to predict the exact breed.
+
+This architecture will improve scalability and allow specialized models to achieve better performance.
+
+4. Improved CNN Architecture
+
+Experiment with deeper custom CNN architectures and advanced regularization techniques to improve classification accuracy and model generalization.
+
+Potential improvements include:
+
+Additional convolutional layers
+Batch Normalization
+Dropout optimization
+Data augmentation techniques
+Hyperparameter tuning
+
+5. Confidence-Based Predictions
+
+Provide confidence scores and prediction probabilities to help users better understand model certainty and reliability.
+
+6. Multi-Animal Classification
+
+Expand the project beyond dogs and cats by supporting additional animal categories and breed-level classification in future versions.
 ---
 
 ## Learning Outcomes
