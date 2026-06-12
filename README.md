@@ -366,8 +366,8 @@ Hyperparameter tuning
 Provide confidence scores and prediction probabilities to help users better understand model certainty and reliability.
 
 6. Multi-Animal Classification
-
 Expand the project beyond dogs and cats by supporting additional animal categories and breed-level classification in future versions.
+
 ---
 
 ## Learning Outcomes
